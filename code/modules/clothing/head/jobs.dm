@@ -30,6 +30,14 @@
 	strip_delay = 60
 	dog_fashion = /datum/dog_fashion/head/captain
 
+/obj/item/clothing/head/capberet
+	name = "captain's beret"
+	desc = "A robust blue beret worn by distinguished captain's with class."
+	icon_state = "captainberet"
+	armor = list("melee" = 25, "bullet" = 15, "laser" = 25, "energy" = 10, "bomb" = 25, "bio" = 0, "rad" = 0, "fire" = 50, "acid" = 50)
+	strip_delay = 60
+	dog_fashion = null
+
 //Captain: This is no longer space-worthy
 /obj/item/clothing/head/caphat/parade
 	name = "captain's parade cap"
@@ -117,6 +125,19 @@
 /obj/item/clothing/head/HoS/syndicate
 	name = "syndicate cap"
 	desc = "A black cap fit for a high ranking syndicate officer."
+
+/obj/item/clothing/head/syndicateberet
+	name = "syndicate beret"
+	desc = "A tactical beret emblazoned with a syndicate crest."
+	icon_state = "syndiberet"
+
+/obj/item/clothing/head/beret/cent
+	name = "centcom beret"
+	desc = "An armored beret outfitted to robust CentCom officials."
+	icon_state = "centcomberet"
+	armor = list("melee" = 40, "bullet" = 30, "laser" = 30,"energy" = 10, "bomb" = 25, "bio" = 0, "rad" = 0, "fire" = 20, "acid" = 50)
+	strip_delay = 60
+	dog_fashion = null
 
 /obj/item/clothing/head/HoS/beret
 	name = "head of security beret"
